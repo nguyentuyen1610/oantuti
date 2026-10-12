@@ -24,7 +24,7 @@ export default function LogoutButton({ className }: { className?: string }) {
       disabled={busy}
       className={
         className ||
-        "inline-flex items-center gap-2 rounded-xl border border-rose-200 bg-rose-50/70 px-3.5 py-2 text-xs font-semibold text-rose-700 transition hover:bg-rose-100 hover:border-rose-300 disabled:opacity-60 cursor-pointer"
+        "inline-flex items-center gap-2 rounded-none border border-rose-200 bg-rose-50/70 px-3.5 py-2 text-xs font-semibold text-rose-700 transition hover:bg-rose-100 hover:border-rose-300 disabled:opacity-60 cursor-pointer"
       }
       title="Đăng xuất khỏi hệ thống"
     >
